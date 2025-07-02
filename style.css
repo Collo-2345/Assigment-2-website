@@ -1,0 +1,847 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(3,4,30,0.7),rgba(3,4,30,0.7)) , url('photos/zetech3.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 8px;
+    
+}
+.header nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 2% 6%;
+     
+}
+nav img{
+    
+    height: 160px;
+    border-radius: 50%;
+    
+  }
+.navbar{
+    flex: 1;
+    text-align: right;
+    
+}
+.navbar ul li {
+   display: inline-block;
+   list-style: none;  
+   position: relative;
+   padding: 8px 12px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+
+}
+.navbar ul li::after{
+    content: '';
+    background-color: orangered;
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: .5s ease;
+     
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+   width: 90%;
+   position: absolute;
+   top: 50%;
+   left: 8%;
+   color: #fff;
+   transform: translateX(-50%, -50%);
+   text-align: center;
+
+}
+.content h1{
+    font-size: 60px;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+    margin: 10px 0 40px;
+}
+.Collocoolkheed-btn{
+    text-decoration: none;
+    background: transparent;
+    padding: 10px 20px;
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    color: hsl(16, 100%, 60%);
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    font-size: 13px;
+    cursor: pointer;
+    transition: .5s ease;
+
+}
+.Collocoolkheed-btn:hover{
+      color: #fff;
+      background: hsl(16, 100%, 50%);
+}
+
+nav .tags{
+    display: none;
+}
+
+/*-------------Services---------------*/
+
+.header-1.Services-section{
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(3,4,30,0.7),rgba(3,4,30,0.7)) , url('photos/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+
+}
+.header-1 .service-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-nav img{
+    height: 140px;
+    margin-top: 30px;
+    margin-left: 30px;
+     
+}
+.narbar-1 ul{
+    margin-right: 30px;
+  
+}
+.header-1 .narbar-1 ul li{
+    padding-right: 24px;
+    
+}
+ .header-1 .intro{
+    text-align: center;
+    color: white;
+ }
+ .header-1 .intro h1{
+  font-size: 28px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: sans-serif;
+  padding: 24px 0;
+ }
+ .header-1 .intro h2{
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+  font-family: cursive;
+  padding: 14px 0 24px;
+  color: orangered;
+ }
+ .header-1 .intro .btn2{
+    margin-top:12px ;
+    padding: 16px 26px;
+    width: 260px;
+    
+ }
+.course{
+    padding-top: 100px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+   
+}
+.course h1{
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.course p{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+    margin: 10px 0 40px;
+    line-height: 22px;
+}
+.row{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 30%;
+    background: hsl(16, 100%, 95%);
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    transition: transform .5s;
+}
+.course-col h3{
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 25px;
+    text-align: center;
+    transition: .5s ease;
+
+}
+.course-col:hover{
+ box-shadow: 0 0 20px 0px rgba(0, 0, 0, .4);
+ transform: translateY(-10px);
+
+}
+.vdeo-facility{
+    width: 90%;
+    background: rgb(207, 203, 203);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    padding: 80px 60px;
+    
+}
+ .vdeo-facility .column{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.video-container.vdeo1{
+    width: 530px;
+    
+}
+.vdeo-facility h1{
+    text-align: center;
+    font-size: 34px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 23px;
+}
+.vdeo-facility .column h1{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 24px;
+
+}
+.vdeo-facility .Collocoolkheed-btn{
+    margin: 50px auto;
+    margin-left: 42%;
+    width: 240px;
+    border: 2px solid #000;
+    color: white;
+    font-size: 18px;
+}
+
+/*---------Campus--------------*/
+.Campus{
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    width: 80%;
+
+}
+.Campus h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.Campus p{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+    margin: 10px 0 40px;
+    line-height: 22px;
+}
+.campus-col{
+    flex-basis: 32%;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+.campus-col img{
+    width: 100%;
+}
+.layer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent;
+    height: 100%;
+    width:100%;
+    transition: .5s ease-in;
+    
+}
+.layer:hover{
+    background: rgba(226, 0, 0, .7);
+    
+}
+.layer h3{
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    font-size: 26px;
+    color:hsl(113, 16%, 99%);
+    transform: translateX(-50%);
+    font-weight: 600;
+    position: absolute;
+    opacity:0;
+    transition: .5s;
+}
+.layer:hover h3{
+    opacity: 1;
+    cursor: pointer;
+    bottom: 49%;
+}
+/*---------Facilities-------------*/
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.facilities p{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+    margin: 10px 0 40px;
+    line-height: 22px;
+}
+.facilities-col{
+    flex-basis: 32%;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    text-align: left;
+
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+.facilities-col p{
+    font-weight: 300;
+    opacity: .7;
+    line-height: 22px;
+}
+.container-cnt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.video-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #000;
+    margin-top: 20px;
+    flex-basis: 48%;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .video-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+  }
+
+/*-------------testimonials-------------*/
+.Testimonial{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.Testimonial h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.Testimonial p{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+    margin: 10px 0 40px;
+    line-height: 22px;
+}
+.Testimonial-col{
+    flex-basis: 44%;
+    overflow: hidden;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+
+}
+.Testimonial-col img{
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+.Testimonial-col P{
+    padding: 0;
+}
+.Testimonial-col H3{
+    margin-top: 15px;
+    text-align: left;
+}
+
+/*--------------Call To Action------------*/
+
+.Cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(photos/cta4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    
+}
+.Cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+
+}
+
+/*--------------Footers------------*/
+.Footers{
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;   
+}
+.Footers h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.icons .bx
+{
+    color: #009568;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 24px;
+    transition: transform .5s;
+}
+.icons .bx:hover
+{
+    color: #f44336;
+    transform: translateY(-10px);
+}
+/* ------------About us------------*/
+.header-1.About-section{
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(3,4,30,0.7),rgba(3,4,30,0.7)) , url('photos/about.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+
+}
+.Founder{
+    width: 90%;
+    background: #ccc;
+    border-radius: 12px;
+    margin: 50px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 100px 40px;
+}
+.Founder h1{
+    text-align: center;
+    font-size: 34px;
+    color: rgb(136, 47, 12);
+    font-family: cursive;
+    font-weight: 600;
+    font-style: italic;padding-bottom: 60px;
+}
+.Founder .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.container .col-1{
+    flex-basis: 32%;
+    margin-left: 80px;
+}
+.container .col-1 h2{
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    color: white;
+    font-size: 28px;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 0;
+    background: rgb(187, 52, 3);
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 22px;
+}
+.container .col-1 p{
+  
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #222121;
+}
+.container .col-1 span{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    font-style: italic;
+    font-family: cursive;
+}
+.container .col-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .holder-container{
+    position: relative;
+    width: 440px;
+    height: 260px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #000;
+    margin-top: 20px;
+    flex-basis: 48%;
+ }
+ .holder-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+  }
+
+.container .col-2 img{
+    width: 100%;
+    border-radius: 8px;
+    
+}
+.container .col-2 .row-content-1{
+    flex-basis: 38%;
+    margin-right: 42px;
+}
+.container .col-2 .row-content-1 p{
+   margin-bottom: 50px;
+   margin-top: 16px;
+   font-size: 18px;
+   font-weight: 600;
+   font-style: italic;
+   color: rgb(190, 52, 2);
+}
+
+.container .col-2 .row-content-2{
+    flex-basis: 38%;
+    margin-bottom: 8px;
+}
+.container .col-2 .row-content-2 p{
+    margin-bottom: 50px;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(190, 52, 2);
+ }
+
+
+.sub-header h1{
+    margin-top: 100px;
+}
+.sub-header h2{
+    margin-top: 20px;
+    color: orangered;
+    font-size: 20px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 500;
+}
+.sub-header .btn2{
+    margin-top: 30px;
+}
+.About-Us{
+    width: 70%;
+    background: #84c2e5;
+    margin: 50px  auto ;
+    padding: 80px 160px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+.About-Us .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-col-1{ 
+   flex-basis: 48%;
+}
+.about-col-1 h1{
+    padding-right: 0;
+    font-size: 34px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+.btn{
+   border: 1px solid black;
+   background: transparent;
+   border-radius: 5px;
+   margin-top: 30px;
+   color: white;
+   
+}
+.Student-section{
+    width: 94%;
+    padding: 60px 40px;
+    margin:auto 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    background: rgb(219, 209, 189);
+}
+.Student-section .std-container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.std-container .std-column-1{
+    flex-basis: 48%;
+    margin-left: 50px;
+    
+}
+.std-container  .std-column-1 img{
+    flex-basis: 48%;
+    width: 80%;
+    border-radius:8px ;
+    box-shadow: 0 0 15px rgba(0,0,0,.7);
+    margin-bottom: 40px;
+}
+.Student-section h1{
+    font-size: 34px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: sans-serif;
+    color: whitesmoke;
+    width: 400px;
+    text-align: center;
+    padding: 6px 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0,0,0,.7);
+    background: orangered;
+    margin-bottom: 60px;
+    margin-left: 650px; 
+  
+
+}
+
+/*-------------Contact Content------------------*/
+.header-1.contact-section{
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(3,4,30,0.7),rgba(3,4,30,0.7)) , url('photos/bg3.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+
+}
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div .bx{
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px;
+}
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom:5px ;
+    color: #555;
+    font-weight: 400;
+}
+.contact-col div p{
+    padding: 0;
+}
+.contact-col input, .contact-col textarea{
+  width: 100%;
+  padding: 15px;
+  margin-bottom:17px ;
+  outline: none;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/*----------Blogs----------*/
+
+.header-1.Blog-section{
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(3,4,30,0.7),rgba(3,4,30,0.7)) , url('photos/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+
+}
+.Blogs-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+
+}
+.Blogs-content h1{
+   font-size: 34px;
+   font-family: cursive;
+   font-style: italic;
+   color: orangered;
+   margin: 12px 0;
+   text-align: center;
+   font-weight: 600;
+}
+.blog-left{
+    flex-basis: 65%;
+}
+.blog-left img{
+    width: 100%;
+    border-radius: 12px;
+    height: 500px;
+}
+.blog-left h2{
+  color: #222;
+  font-weight: 500;
+  margin: 30px 0;
+}
+.blog-left p{
+  color: #999; 
+  padding: 0; 
+}
+.blog-right{
+    flex-basis: 32%;
+}
+.blog-right h3{
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 6px;
+
+}
+.blog-right img{
+    width: 100%;
+    margin-top: 180px;
+    border-radius: 12px;
+}
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.blog-right div span{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3{
+    text-align: left;
+}
+.comment-form input, .comment-form textarea{
+   width: 100%;
+   padding:10px ;
+   margin: 15px 0;
+   box-sizing: border-box;
+   border: none;
+   outline: none;
+   background:#f0f0f0;
+}
+.comment-form button{
+    margin: 10px 0;
+}
+.Collocoolkheed-btn.btn.chng{
+    color: orangered;
+    font-weight: 600;
+    border: 2px solid orangered;
+}
+.Collocoolkheed-btn.btn.chng:hover{
+   color: white;
+}
+.Testimonial .Testimonial-container{
+  padding: 60px 80px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,1);
+  background: rgb(126, 200, 202);
+  
+}
+.Testimonial.adjust{
+    padding-top: 0;
+}
